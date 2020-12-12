@@ -1,2 +1,2 @@
 # GeoEtrim_C-_2020
-C++ version of GeoEtrim software. 
+Qt & C++ version of GeoEtrim
