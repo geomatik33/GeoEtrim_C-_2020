@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "geotransform.h"
 
 namespace Ui {
 class MainWindow;
@@ -18,8 +19,13 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_actionGeoTransform_triggered(); 
+
 private:
     Ui::MainWindow *ui;
+    
+     GeoTransform *Geotransform_open;
+    
 };
 
 #endif // MAINWINDOW_H
