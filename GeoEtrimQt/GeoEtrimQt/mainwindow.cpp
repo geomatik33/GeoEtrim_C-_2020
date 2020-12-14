@@ -6,6 +6,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+        
+         Geotransform_open = new GeoTransform();
 }
 
 MainWindow::~MainWindow()
@@ -16,4 +18,8 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_clicked()
 {
 
+}
+void MainWindow::on_actionGeoTransform_triggered()
+{
+    Geotransform_open->show();
 }
